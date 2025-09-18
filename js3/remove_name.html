@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Remove Last Name</title>
+</head>
+<body>
+
+<h2>Names List:</h2>
+<ul id="namesList"></ul>
+
+<script>
+  let names = ["Alice", "Bob", "Charlie", "David", "Eve"];
+
+  names.pop();
+
+  const listElement = document.getElementById("namesList");
+  names.forEach(function(name) {
+    const li = document.createElement("li");
+    li.textContent = name;
+    listElement.appendChild(li);
+  });
+</script>
+
+</body>
+</html>

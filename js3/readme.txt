@@ -1,0 +1,1 @@
+This is the code that removes the last name from an array of names and displays it on the screen.
