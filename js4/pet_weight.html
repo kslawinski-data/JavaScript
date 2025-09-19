@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Names and Weights</title>
+</head>
+<body>
+
+<h2>Favorite Pets (Sorted by Weight):</h2>
+<ul id="petList"></ul>
+
+<script>
+  let pets = [
+    ["Bella", 4.5],
+    ["Max", 2.3],
+    ["Charlie", 7.1],
+    ["Luna", 1.8],
+    ["Rocky", 3.2]
+  ];
+
+  pets.sort(function(a, b) {
+    return a[1] - b[1];
+  });
+
+  const listElement = document.getElementById("petList");
+  pets.forEach(function(pet) {
+    const li = document.createElement("li");
+    li.textContent = `${pet[0]} - ${pet[1]} kg`;
+    listElement.appendChild(li);
+  });
+</script>
+
+</body>
+</html>
