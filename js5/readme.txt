@@ -1,0 +1,1 @@
+This is a code that checks whether The Beatles are on the list of bands and displays the result on the screen.
