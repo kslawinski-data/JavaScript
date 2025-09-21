@@ -1,0 +1,1 @@
+This program creates an array of 10 numbers and displays the lowest and the highest one.
