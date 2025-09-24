@@ -19,7 +19,9 @@ function displaySound(obj) {
 	console.log(animal['sound']);
 }
 
-
-
 displayAnimal(animal);
 displaySound(animal);
+/* 
+This script creates an animal object, displays its properties,
+ and then shows the sound the animal makes using a function.
+*/
