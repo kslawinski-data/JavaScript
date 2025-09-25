@@ -57,7 +57,7 @@ function addPerson() {
           person.address = address;
 
           console.log("\nPerson added successfully.");
-          mainMenu(); // Wróć do menu
+          mainMenu();
         });
       });
     });
@@ -70,13 +70,14 @@ function showPerson() {
   console.log("Last Name: ", person.lastname || "Not set");
   console.log("Age:       ", person.age || "Not set");
   console.log("Address:   ", person.address || "Not set");
-  mainMenu(); // Wróć do menu
+  mainMenu();
 }
 
 function editAddress() {
   rl.question("Enter new address: ", (address) => {
     person.address = address;
     console.log("Address updated.");
-    mainMenu(); // Wróć do menu
+    mainMenu();
   });
 }
+
