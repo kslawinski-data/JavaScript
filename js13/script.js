@@ -20,3 +20,5 @@ rl.question("Please enter a number: ", (input) => {
 
   rl.close();
 });
+
+//This program takes a number from the user and checks whether it is even or odd.
